@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #7c8483;
+}
+.container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0 0 0;
+}
+#headline img {
+  height: 1.8rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#headline h1 {
+  color: rgb(240, 248, 255);
+  font-family: Helvetica, sans-serif;
+}
+
+#palindrome-checker {
+  width: min(100vw, 450px);
+
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 0 6px 6px #002ead;
+}
+
+#palindrome-checker h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#palindrome-checker p {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 15px 0;
+}
+#input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 8px 0 0 0;
+}
+#result-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tip p {
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #00471b;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
