@@ -15,32 +15,48 @@
     }
     body {
       text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(86, 145, 177);
     }
     .content {
       background-color: antiquewhite;
-      margin: 10px 100px;
+
+      margin: 20px 100px;
+      padding: 20px 100px;
+      min-height: 100vh;
+      border-radius: 20px;
+    }
+    .content a {
+      text-decoration: none;
+    }
+
+    .headline {
+      padding: 5px 0;
+      color: rgb(24, 78, 125);
     }
   </style>
   <body>
-    <h1>Practice</h1>
     <section class="content">
+      <h1>Practice</h1>
       <a href="1.Background-color/index.html" target="_blank">
-        <div id="first">Background-Color</div>
+        <div class="headline" id="first">Background-Color</div>
       </a>
       <a href="2.Calory-Counter/index.html" target="_blank">
-        <div id="second">Calory Counter</div>
+        <div class="headline" id="second">Calory Counter</div>
       </a>
       <a href="3.Simple-Game/index.html" target="_blank">
-        <div id="third">Scissors, Paper, and Rock game</div>
+        <div class="headline" id="third">Scissors, Paper, and Rock game</div>
       </a>
       <a href="4.Music-Player/index.html" target="_blank">
-        <div id="fourth">Music player</div>
-<<<<<<< HEAD
+        <div class="headline" id="fourth">Music player</div>
       </a>
       <a href="5.Palindrome-Checker/index.html" target="_blank">
-        <div id="fifth">Palindrome Checker</div>
-=======
->>>>>>> f1555a6b05ea067ef8f83d3268c7a53a1b3037f0
+        <div class="headline" id="fifth">Palindrome Checker</div>
+      </a>
+      <a href="6.Date-Formatter/index.html" target="_blank">
+        <div class="headline" id="sixth">Date-Formatter</div>
       </a>
     </section>
   </body>
